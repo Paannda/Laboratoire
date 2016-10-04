@@ -12,6 +12,8 @@
 		F42E53801D9B2FA700F26AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42E537E1D9B2FA700F26AAB /* Main.storyboard */; };
 		F42E53821D9B2FA700F26AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42E53811D9B2FA700F26AAB /* Assets.xcassets */; };
 		F42E53851D9B2FA700F26AAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42E53831D9B2FA700F26AAB /* LaunchScreen.storyboard */; };
+		F42E538D1D9B414C00F26AAB /* Club_List.plist in Resources */ = {isa = PBXBuildFile; fileRef = F42E538C1D9B414C00F26AAB /* Club_List.plist */; };
+		F42E53931D9B4A5600F26AAB /* ic_clubs in Resources */ = {isa = PBXBuildFile; fileRef = F42E53921D9B4A5600F26AAB /* ic_clubs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F42E53811D9B2FA700F26AAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F42E53841D9B2FA700F26AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F42E53861D9B2FA700F26AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42E538C1D9B414C00F26AAB /* Club_List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Club_List.plist; sourceTree = "<group>"; };
+		F42E53921D9B4A5600F26AAB /* ic_clubs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ic_clubs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		F42E53791D9B2FA700F26AAB /* Laboratoire iOS */ = {
 			isa = PBXGroup;
 			children = (
+				F42E53921D9B4A5600F26AAB /* ic_clubs */,
 				F42E537A1D9B2FA700F26AAB /* AppDelegate.swift */,
 				F42E537C1D9B2FA700F26AAB /* ViewController.swift */,
 				F42E537E1D9B2FA700F26AAB /* Main.storyboard */,
 				F42E53811D9B2FA700F26AAB /* Assets.xcassets */,
 				F42E53831D9B2FA700F26AAB /* LaunchScreen.storyboard */,
 				F42E53861D9B2FA700F26AAB /* Info.plist */,
+				F42E538C1D9B414C00F26AAB /* Club_List.plist */,
 			);
 			path = "Laboratoire iOS";
 			sourceTree = "<group>";
@@ -126,7 +132,9 @@
 			files = (
 				F42E53851D9B2FA700F26AAB /* LaunchScreen.storyboard in Resources */,
 				F42E53821D9B2FA700F26AAB /* Assets.xcassets in Resources */,
+				F42E538D1D9B414C00F26AAB /* Club_List.plist in Resources */,
 				F42E53801D9B2FA700F26AAB /* Main.storyboard in Resources */,
+				F42E53931D9B4A5600F26AAB /* ic_clubs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
